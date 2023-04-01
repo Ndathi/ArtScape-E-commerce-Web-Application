@@ -1,0 +1,23 @@
+.itemrequest {
+  /* display: flex;
+  justify-content: center; */
+
+  position: fixed;
+  top: 10%;
+  left: 30%;
+
+  width: 50%;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+}
+#w3review {
+  margin-bottom: 20px;
+}
+.imagetext {
+  margin-top: 20px;
+}
+.additemform {
+  padding: 30px;
+}

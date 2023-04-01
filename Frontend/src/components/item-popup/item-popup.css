@@ -1,0 +1,63 @@
+.bidhaa-container {
+  display: flex;
+  justify-content: center;
+}
+
+.picha-container {
+  display: flex;
+
+  justify-content: center;
+  background-color: brown;
+  width: 850px;
+  height: 550px;
+}
+#picha {
+  width: 435px;
+  height: 509px;
+  margin: 20px;
+}
+.kidude-container {
+  display: flex;
+  justify-content: center;
+}
+.price-dollar {
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.bidhaa-description {
+  margin-bottom: 60px;
+  font-size: 1rem;
+  color: rgb(51, 1, 1);
+  display: flex;
+
+  justify-content: center;
+  margin: 30px;
+}
+
+.bidhaa-title {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 4px;
+  width: 228px;
+  margin: 30px auto 0;
+  color: rgb(121, 9, 9);
+}
+
+.maelezo-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 500px;
+  height: 450px;
+
+  background-color: rgb(194, 184, 184);
+}

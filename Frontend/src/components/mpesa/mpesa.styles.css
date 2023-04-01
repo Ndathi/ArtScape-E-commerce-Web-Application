@@ -1,0 +1,17 @@
+.mpesaContainer {
+  position: fixed;
+  top: 30%;
+  left: 40%;
+
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+}
+.mpesa-form {
+  padding: 30px;
+}
+#mpesatext {
+  margin-top: 30px;
+  margin-left: 30px;
+}
