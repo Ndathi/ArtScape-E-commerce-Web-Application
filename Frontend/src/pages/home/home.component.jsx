@@ -1,15 +1,16 @@
 import React from "react";
 
-import "./Home.css";
-import "./nicepage.css";
 
-var __html = require("./home.html.js");
-var template = { __html: __html };
+
+
+
 
 const HomePage = () => {
   return (
-    <div className="screen-share">
-      <span dangerouslySetInnerHTML={template} />
+    <div >
+      <h1>Home Page under development</h1>
+      <h2>view Content on the discover page</h2>
+     
     </div>
   );
 };
