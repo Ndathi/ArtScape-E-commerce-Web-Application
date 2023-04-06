@@ -1,0 +1,129 @@
+
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+#landingpage{
+    background: url(../../../public/images/Final.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: none;
+    height: 100vh;
+}
+#artscapetitle{
+    font-size: 100px;
+    color: white;
+    padding-top: 10vh;
+    padding-left: 15vh;
+}
+#little-heading{
+    font-size: 80px;
+    color: white;
+    padding-left: 15vh;
+    padding-top: 2vh;
+}
+#secon-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #9C40EB;
+}
+#second-section{
+    background-color: #9C40EB;
+    margin-top: none;;
+}
+.rectangle{
+    width: 25vw;
+    height: 65vh;
+    
+}
+
+#draw-text{
+    font-size: 40px;
+    margin-left: 5vw;
+    margin-top: 29vh;
+    /* color: red; */
+    /* background: rgb(64, 60, 60); */
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.7s linear; 
+     transition: visibility 0s, opacity 0.7s linear;
+    
+}
+#paint-text{
+    font-size: 40px;
+    margin-left: 5vw;
+    margin-top: 29vh;
+    /* color: red; */
+    /* background: rgb(64, 60, 60); */
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.7s linear; 
+     transition: visibility 0s, opacity 0.7s linear;
+}
+#drawing-rectangle{
+
+    margin-top: 5vh;
+    background: url("../../../public/images/performer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#drawing-rectangle:hover{
+    opacity: 0.8;
+}
+#drawing-rectangle:hover h4{
+    visibility: visible;
+    opacity: 0.85; 
+}
+#paint-rectangle{
+    margin-top: 10vh;
+    background: url("../../../public/images/rainiy\ day.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#paint-rectangle:hover{
+    opacity: 0.8;
+}
+#paint-rectangle:hover h4{
+    visibility: visible;
+    opacity: 0.85; 
+}
+#print-rectangle{
+    background: url("../../../public/images/house.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 5vh;
+}
+#print-rectangle:hover{
+    opacity: 0.8;
+}
+#print-text{
+    font-size: 40px;
+    margin-left: 5vw;
+    margin-top: 29vh;
+    /* color: red; */
+    /* background: rgb(64, 60, 60); */
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.7s linear; 
+     transition: visibility 0s, opacity 0.7s linear;
+}
+#print-rectangle:hover h4{
+    visibility: visible;
+    opacity: 0.95;
+}
+#red{
+    background-color: brown;
+}
+#outerdiv{
+    background-color: blue;
+    
+}
